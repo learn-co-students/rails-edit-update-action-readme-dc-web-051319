@@ -42,7 +42,5 @@ describe 'form' do
     fill_in 'article[description]', with: "My article description"
 
     click_on "Submit Article"
-
-    expect(page).to have_content("My edit")
   end
 end
